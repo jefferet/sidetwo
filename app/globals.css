@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F5F0E8;
+  --foreground: #3D3D3D;
+  --primary: #8B7355;
+  --secondary: #6B8E23;
+  --accent: #2E4A1D;
+  --terracotta: #C17550;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-terracotta: var(--terracotta);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Georgia', serif;
+}
